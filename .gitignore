@@ -1,0 +1,21 @@
+# Trained models
+*.h5
+*.keras
+
+# Dataset
+grp_dataset/
+dataset/
+train/
+test/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter cache
+.ipynb_checkpoints/
+
+# Model folders
+stage1_models/
+stage2_models/
+Comparison_Models/
