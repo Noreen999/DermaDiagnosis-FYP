@@ -53,7 +53,21 @@ The dataset was collected from publicly available dermatology image sources incl
 - DermNet
 - UCI
 - ISIC
-
+dataset/
+│
+├── train/
+│   ├── Acneiform/
+│   │   ├── Acne/
+│   │   ├── Folliculitis/
+│   │   └── Rosacea/
+│   │
+│   ├── Healthy/
+│   ├── Inflamatory/
+│   ├── Pigmentation/
+│   └── Pox/
+│
+└── test/
+    └── same structure
 The dataset was reorganized into a hierarchical structure according to disease groups.
 
 ## Disease Groups and Classes
